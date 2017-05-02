@@ -1,0 +1,16 @@
+#wrapper{
+    width: 700px;
+}
+
+#resume{
+    display: none;
+}
+
+#adjustedResume{
+    display: block;
+}
+
+#adjustedResume img{
+    width: 80%;
+    height: auto;
+}

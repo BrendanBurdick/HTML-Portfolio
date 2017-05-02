@@ -1,0 +1,111 @@
+#wrapper{
+    padding: 0 0 0 0;
+    width: 1000px;
+    margin: 0px auto 0px auto;
+    background-color: #FF6347;
+}
+
+#bodyStyle{
+    font-family: "Times New Roman";
+    background-color: #ADEAEA;
+    color: white;
+    background-image: url(trees.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header{
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    height: 100px;
+    font-size: 45px;
+    background-color: #FF6347;
+    font-family: Impact, Charcoal, sans-serif;
+    border-bottom: 1px solid black;
+}
+
+#header i{
+    font-size: 30px;
+}
+
+#navBar{
+    width: 17%;
+    background-color: #FF6347;
+    float:left;
+}
+
+#main{
+    color: white;
+    margin-left: 17%;
+    background-color: #EE7600;
+    border-left: 1px solid black;
+    padding: 15px 15px 15px 15px;
+}
+
+#main h2{
+    font-family: Century Gothic, sans-serif;
+    font-style: italic;
+}
+
+#main p{
+    font-family: Century Gothic, sans-serif;
+    font-size: 18px;
+}
+
+.buttonStyle{
+    border: 1px solid #FF6347;
+    height: 100px;
+    font-family: Comic Sans MS;
+    width: 100%;
+    background-color: #FF6347;
+    color:white;
+    font-size: 23px;
+}
+
+.buttonStyle:hover{
+    border: 1px solid #FF6347;
+    background-color: white;
+    color: #FF6347;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#sans{
+    font-family: Comic Sans MS, cursive, sans-serif;
+    margin-top: 0;
+}
+
+#formatContact{
+    padding-left: 175px;
+}
+
+#footer{
+    background-color: #EE7600;
+    color: white;
+    clear: both;
+    padding: 0px 5px 5px 5px;
+}
+
+#resume{
+    color: black;
+    background-color:white;
+    padding: 10px 10px 10px 10px;
+    width: 85%;
+    margin: 0px auto 0px auto;
+}
+
+#resume ul{
+    padding-top: 0px;
+}
+
+#resume ul li{
+    padding: 0px; 0px 5px 0px;
+}
+
+hr{
+    margin: 0 0 0 0;
+}
+
+#adjustedResume{
+    display: none;
+}

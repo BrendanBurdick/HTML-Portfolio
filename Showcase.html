@@ -1,0 +1,104 @@
+<!--
+Author: Brendan Burdick
+Project: Portfolio
+Class: HTML and Javascript Programming
+Professor: Cornelia Breuning
+Date: April 19th, 2017
+
+Page: Showcase Page
+-->
+
+<html>
+    <head>
+        <title>Student Showcase</title>
+        <link rel="stylesheet" type="text/css" href="PortfolioStyle.css">
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 925px)"  href="TabletScale.css">
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)"  href="PhoneScale.css">
+        <style>
+            
+            #bodyStyle{
+                background-repeat: repeat-y;
+                background-size: contain;
+            }
+        </style>
+    </head>
+    
+    <body id="bodyStyle">
+        <div id="wrapper">
+            <div id="header">
+                Brendan Burdick<br />
+                <i>Semester ePortfolio &middot; Introduction to HTML</i>
+            </div> <!--End of Header-->
+            
+            <div id="navBar">
+                <nav>
+                    <a href="./HomePage.html"><button class="buttonStyle">Home Page</button></a>
+                    <a href="./Websites.html"><button class="buttonStyle">Websites</button></a>
+                    <a href="./Resume.html"><button class="buttonStyle">Resume</button></a>
+                    <a href="./Showcase.html"><button class="buttonStyle">Showcase</button></a>
+                </nav>
+            </div> <!--End of NavBar-->
+            
+            <div id="main">
+                <h1 align="center" id="sans">Student Showcase</h1>
+                <br />
+                
+                <h2 id="Intro">Tic-Tac-Toe Game Written in C++</h2>
+                <p>
+                    As a Computer Science major, I am often asked to showcase my programming abilities. This was done frequently with a C++ programming course I took last semester. In this course, I learned about the basic programming concepts that every programmer should know. By this point, other CS students and I should be familiar a lot of these concepts. This class is different because I was learning a new language. <br /><br />
+                    
+                    There were plenty of programming assignments in this class, but the one I think was the funnest was creating a tic-tac-toe game. For my midterm, I had to create a tic-tac-toe game that swaps back and forth between two players and asks the players if they want to continue playing after a match has ended.
+                </p>
+                <br /><br />
+                
+                
+                <h2>Playing the Game</h2>
+                <center><img src="TicTac1.png" width=60% heigh="auto"></center>
+                <p>
+                    When the game starts, player 1 is provided with a 'blank' tic-tac-toe game. The nine possible slots are numbered 1-9, and if a player wants to make a move, they have to select that number.
+                </p> <br /><br />
+                
+                <center><img src="TicTac2.png" width=60% heigh="auto"></center>
+                <p>
+                    Player 1 is asked to make a move. They make a move based on the 'blank' tic-tac-toe board. By selecting a number, player 1 fills that slot with an 'X', and then it's player 2's turn (who uses 'O's). The game goes on until someone wins, or no one wins.
+                </p><br /><br />
+                
+                <center><img src="TicTac3.png" width=60% heigh="auto"></center>
+                <p>
+                    When a player wins, a congratulations message appears and asks the players if they would like to play another round (player 2 didn't do too hot this round).
+                </p><br /><br />
+                
+                
+                <center><img src="TicTac4.png" width=60% heigh="auto"></center>
+                <p>
+                    When no one wins, a message appears saying that no one has won, and asks the players if they would like to play another round. This sequence goes on endlessly! Until they decide that they've had enough.
+                </p>
+                
+                <br /><br />
+                
+                
+                <h2>Writing the Code</h2>
+                <p>
+                    It seems like a simple game, right? The rules are simple, and the execution is clean... So how much code could such an easy game take? The answer is <i>a lot!</i>
+                    
+                    <br /><br />
+                    By the time I was finished writing my code, I used just under 300 lines. It takes a lot of thinking to get such a simple thing done! It's part of the puzzle, and that's why I enjoy it! Below is a link to my code. I've included it as a text file for simplicity. Thanks for viewing with me!
+                    
+                    <br /><br />
+                </p>
+                <h2>Sample Code: <a href="TicTacCode.txt">Click Here</a></h2>
+                
+                <br />
+                
+                
+            </div> <!--End of Main-->
+            
+            <div id="footer">
+                <hr />
+                <address>
+                    &copy; This page was created by Brendan Burdick on April 19th, 2017.
+                </address>
+            </div> <!--End of Footer-->
+        </div> <!--End of Wrapper-->
+    </body>
+</html>
