@@ -1,0 +1,128 @@
+#header{
+    padding: 5px 15px 15px 200px;
+    text-align: center;
+    height: 155px;
+}
+
+#navBar{
+    height: 50px;
+}
+
+#footer{
+    background-color: white;
+    padding: 0px 15px 15px 15px;
+    color: black;
+    clear: both;
+}
+
+#main{
+    height: 1600px;
+    float:left;
+    width:75%;
+    background-color: white;
+    color: black;
+    border-right: double;
+    padding: 15px 15px 0px 25px;
+}
+
+#main h1{
+    font-family: Comic Sans MS;
+}
+
+#sidebar{
+    height: 1600px;
+    margin-left: 75%;
+    padding-left: 10px;
+    background-color: white;
+    color: black;
+    padding: 15px 15px 0px 50px;
+    
+}
+
+#wrapper{
+    padding: 0px 15px 15px 15px;
+    max-width: 1000px;
+    margin: 0px auto 0px auto;
+}
+
+#bodyStyle{
+    font-family: "Times New Roman";
+    background-color: #763626;
+    color: white;
+}
+
+#header img {
+    float: right;
+    margin-right: 1%;
+}
+
+.buttonStyle{
+    border: 1px solid #763626;
+    height: 50px;
+    font-family: Comic Sans MS;
+    width: 125px;
+    background-color: #763626;
+    color:white;
+    font-size: 15px;
+}
+
+.buttonStyle:hover{
+    border: 1px solid #763626;
+    background-color: #763626;
+    color: skyblue;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+dt{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: forestgreen;
+    font-weight: bold;
+    padding-bottom: 1px;
+}
+
+dd{
+    font-style: italic;
+}
+
+tr{
+	color: black;
+}
+
+th {
+    background-color: white;
+	color: forestgreen;
+}
+
+td{
+    width: 250px;
+	text-align: center;
+}
+
+#textContent{
+    margin-left: 10%;
+    width: 80%;
+    padding-bottom: 15px;
+}
+
+#textContent h2{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: forestgreen;
+    font-weight: bold;
+}
+
+#textContent img{
+    width: 67%;
+    height: auto;
+}
+
+#contactUs{
+    margin-left: 12.5%;
+    height: 50%;
+    width: 75%;   
+}
+
+.about{
+	float: right;
+	padding: 0px 15px 15px 15px;
+}
